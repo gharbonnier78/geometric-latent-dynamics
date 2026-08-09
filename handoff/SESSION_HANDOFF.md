@@ -1,7 +1,8 @@
 # Session handoff — Geometric Latent Dynamics
 
 **Origin:** ChatGPT / MachineLearning project, 2026-08-09  
-**Stable session title:** **LLPNN — Geometric Latent Dynamics, Deep Reading & Pedagogical Harness**  
+**Exact ChatGPT title:** **LLPNNs et systèmes observables**  
+**Stable repository-facing alias:** **LLPNN — Geometric Latent Dynamics, Deep Reading & Pedagogical Harness**  
 **Repository:** `gharbonnier78/geometric-latent-dynamics`
 
 ## Source paper
