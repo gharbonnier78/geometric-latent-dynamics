@@ -3,21 +3,22 @@
 **Date:** 2026-08-09  
 **MachineLearning project**
 
+## Exact ChatGPT UI title
+
+**LLPNNs et systèmes observables**
+
+This is the exact title supplied by the user for the originating ChatGPT session.
+
 ## Stable handoff title
 
 **LLPNN — Geometric Latent Dynamics, Deep Reading & Pedagogical Harness**
 
-This stable label was created specifically so that the work can be resumed without ambiguity from this repository.
+The stable handoff label is kept as a descriptive repository-facing alias, while the exact ChatGPT title above is the authoritative locator for the original conversation.
 
-## Exact ChatGPT UI title
+## Search anchors
 
-The exact title displayed by the ChatGPT application is **not exposed to the GitHub connector or to the conversation metadata available programmatically in this session**, so it could not be copied reliably without inventing it.
-
-Search anchors for locating the original chat in ChatGPT are:
-
+- `LLPNNs et systèmes observables`
 - `Latent Lie-Poisson Neural Networks`
 - `2607.28939v1`
 - `geometric-latent-dynamics`
 - `Same observation does not necessarily mean same state — or same future`
-
-If the UI title is later supplied explicitly, replace this note with that exact title rather than silently guessing it.
