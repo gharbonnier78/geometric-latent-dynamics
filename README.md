@@ -21,6 +21,14 @@ Every difficult notion should be introduced through the same pedagogical descent
 
 The research harness is therefore also a **pedagogical assurance harness**.
 
+## Reusable harness
+
+This repository is a consumer of `gharbonnier78/scientific-research-harness`, currently through draft PR #1 (`agent/step-state-pedagogy`). The reusable upstream contracts define step-state pedagogy, the pedagogical concept contract, prerequisite graphs, mathematical descent, the distinction between scientific and understanding gates, and the consumer/upstream reuse model.
+
+See [`handoff/HARNESS_REFERENCE.md`](handoff/HARNESS_REFERENCE.md) for the exact pinned upstream commit and reuse boundary.
+
+LLPNN-specific mathematics, source material, concept instances, notebooks and experiments stay in this repository. Generic rules discovered here should be promoted upstream rather than silently forked.
+
 ## Initial research question
 
 The first experiment precedes any neural network:
@@ -42,10 +50,13 @@ Two states with the same \(\mu_3\) but different \(\mu_2\) therefore produce the
 
 ## Repository bootstrap
 
+Originating ChatGPT session: **LLPNNs et systèmes observables**.
+
 - [`papers/2607.28939v1.pdf`](papers/2607.28939v1.pdf) — exact source paper studied in the originating ChatGPT session; populated by a checksum-gated GitHub Action.
 - [`handoff/CHAT_TRANSCRIPT_2026-08-09.md`](handoff/CHAT_TRANSCRIPT_2026-08-09.md) — full visible transcript of the originating discussion.
 - [`handoff/SESSION_HANDOFF.md`](handoff/SESSION_HANDOFF.md) — stable re-entry point: source, decisions, pedagogical contract and next experiment.
-- [`handoff/CHAT_TITLE.md`](handoff/CHAT_TITLE.md) — stable chat label plus note about the unavailable exact UI title.
+- [`handoff/CHAT_TITLE.md`](handoff/CHAT_TITLE.md) — exact ChatGPT title plus stable repository alias/search anchors.
+- [`handoff/HARNESS_REFERENCE.md`](handoff/HARNESS_REFERENCE.md) — exact reusable harness reference, current upstream commit and local/upstream boundary.
 
 ## Planned structure
 
@@ -74,12 +85,13 @@ Research Assurance
 ├── Evidence
 ├── Experiment
 ├── Reproducibility
-└── Gate
+└── Scientific gate
 
 Pedagogical Assurance
-├── Prerequisite
+├── Prerequisite graph
 ├── Intuition
-├── Mathematical derivation
+├── Concrete example
+├── Mathematical descent
 ├── Plain-language explanation
 ├── Executable example
 ├── Misconception check
